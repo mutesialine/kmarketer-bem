@@ -279,6 +279,9 @@ gap:20px
   color: #1ba0ab;
   Width: 102px
 }
+.team__icon{
+  font-size: medium;
+}
 .contact{
   background-image: url("./image/background.png");
   padding: 50px 195px 50px 195px;
@@ -291,7 +294,7 @@ gap:20px
 .contact__card{
   display: flex;
   flex-direction: column;
-  gap:20px
+  gap:20px;
 }
 .contact__details{
   display:flex;
@@ -365,15 +368,18 @@ color: #BDBDBD;
   display: flex;
 
 }
-.footer__copy-right{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-
-Line-height:24px;
-color:white;
+.footer2__copy-right{
 background-color: #16697a;
-padding:25px 195px 25px 195px;
+padding:25px 190px 25px 190px;
+}
+.footer2__text{
+display: flex;
+text-align: left;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+letter-spacing: 0.2px;
 }
 .header1{
   display:none;
@@ -429,12 +435,9 @@ line-height: 45px;
 }
 
 .section-text__intro--big{
-letter-spacing: 0.2px
+letter-spacing: 0.2px;
 font-size:20px;
 text-align: center;
-}
-.section-text__heading{
-
 }
 
 .section1-button{
@@ -448,8 +451,7 @@ text-align: center;
 .business{
   background-color:#F3F3F3;
   padding:53px 42px 15px 42px
-  gap:
-;
+  
 }
 .business__image{
   width: 306px;
