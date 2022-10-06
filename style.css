@@ -54,10 +54,7 @@ font-size:24px;
   align-items: flex-start;
    gap:10px
 }
-.section-text__heading--middle{
-font-size: 24px;
 
-}
 .section-text__heading--big{
   font-size: 58px;
   font-weight: 800px;
