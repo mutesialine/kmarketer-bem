@@ -26,9 +26,17 @@ font-size:24px;
   gap:140px;
  
 }
-.nav__items{
+.header__nav-items{
   display:flex;
-  gap:21px
+  gap:21px;
+}
+.header__nav-item{
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
 }
 .section-1{
    display: flex;
@@ -36,7 +44,7 @@ font-size:24px;
    align-items: center;
    gap:40px;
    background-color: #fafafa;
-  padding: 120px 0 120px 0;
+   padding: 100px 0 100px 0;
  
 
 }
@@ -46,13 +54,13 @@ font-size:24px;
   place-items: center;
   text-align: center;
   gap:20px;
-  padding: ;
+ 
 
 }
 
 .section-text--before-footer{
   align-items: flex-start;
-   gap:10px
+  gap:10px;
 }
 
 .section-text__heading--big{
@@ -85,8 +93,7 @@ line-height: 30px;
 letter-spacing: 0.20000000298023224px;
 text-align: center;
 max-width: 539px;
-
-
+ font-style: normal;
 }
 .section-text__intro{
 color: #737373;
@@ -96,6 +103,7 @@ line-height: 20px;
 letter-spacing: 0.20000000298023224px;
 max-width: 470px;
 text-align: center;
+ font-style: normal;
 
 }
 .section-text__intro--small{
@@ -173,6 +181,8 @@ text-align: center;
   max-width: 877px;
 max-height: 442px;
 margin-bottom: 55px;
+
+
 }
  .business__background{
   position: absolute;
@@ -364,4 +374,85 @@ Line-height:24px;
 color:white;
 background-color: #16697a;
 padding:25px 195px 25px 195px;
+}
+.header1{
+  display:none;
+}
+@media (max-width: 700px){
+.header{
+  display:none;
+}
+.header1{
+  display:flex;
+  flex-direction: column;
+  height:461px;
+  padding:36px 35px 36px 35px;
+  gap:83px;
+}
+.header1__nav-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header1__logo{
+ font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.header1__nav-icons{
+  display:flex;
+  gap:24px;
+}
+.header1__nav-items{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px
+}
+.header1__nav-item{
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+}
+.section-1{
+  padding:10px 61px 10px 61px;
+}
+.section-text__heading--big{
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+
+}
+
+.section-text__intro--big{
+letter-spacing: 0.2px
+font-size:20px;
+text-align: center;
+}
+.section-text__heading{
+
+}
+
+.section1-button{
+  display:flex;
+  flex-direction: column;
+}
+.features__card-row{
+  display: flex;
+  flex-direction: column;
+}
+.business{
+  background-color:#F3F3F3;
+  padding:53px 42px 15px 42px
+  gap:
+;
+}
+.business__image{
+  width: 306px;
+  max-height:1000px;
+}
 }
