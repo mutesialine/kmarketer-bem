@@ -28,7 +28,7 @@ body{
   display:flex;
   gap:21px;
 }
-.nav__link{
+.link{
 font-weight: 600;
 font-size: 14px;
 line-height: 24px;
@@ -395,7 +395,7 @@ height: 22px;
   align-items: center;
   gap:30px
 }
-.nav-small__link{
+.link{
   font-weight: 600;
   font-size: 25px;
   line-height: 24px;
